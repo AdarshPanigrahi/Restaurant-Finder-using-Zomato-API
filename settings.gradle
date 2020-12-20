@@ -1,0 +1,2 @@
+rootProject.name='Zomato Task App'
+include ':app'

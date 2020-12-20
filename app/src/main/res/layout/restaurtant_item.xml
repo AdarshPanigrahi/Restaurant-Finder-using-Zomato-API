@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5sp"
+    android:elevation="6sp"
+    android:layout_marginTop="2sp"
+    android:layout_marginLeft="1sp"
+    android:layout_marginRight="1sp"
+    android:layout_marginBottom="2sp"
+    app:cardCornerRadius="6sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100sp">
+
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:id="@+id/imgvw1"
+            android:src="@drawable/restaurant_img"
+            android:layout_marginLeft="5sp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="5sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="5sp"
+            android:text="Hot n Spicy"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:id="@+id/nameid1"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/imgvw1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginLeft="5sp"
+            android:layout_toRightOf="@id/imgvw1"
+            android:layout_centerVertical="true"
+            android:id="@+id/addressid1"
+            android:textSize="20sp"
+            android:text="Kalinga Vihar"
+            android:layout_marginTop="10sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_toRightOf="@id/imgvw1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="5sp"
+            android:id="@+id/cuisinesid1"
+            android:textSize="20sp"
+            android:layout_marginBottom="10sp"
+            android:text="Asian , Chinese" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
